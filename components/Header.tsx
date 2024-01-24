@@ -15,11 +15,11 @@ const Header = () => {
           <ul className="hidden lg:inline-flex gap-8 uppercase text-sm font-semibold">
             <li className="headerLi">Home</li>
             <li className="headerLi">Posts</li>
-            <li className="headerLi">Pages</li>
-            <li className="headerLi">Features</li>
             <li className="headerLi">Contact</li>
           </ul>
         </div>
+
+        { /*
         <div className="flex items-center gap-8 text-lg">
           <div className="flex items-center gap-1">
             <img
@@ -34,6 +34,7 @@ const Header = () => {
             Sign In
           </button>
         </div>
+  */ }
       </div>
     </div>
   );

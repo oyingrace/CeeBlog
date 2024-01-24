@@ -13,8 +13,10 @@ module.exports = {
       },
       colors: {
         primaryColor: "#111111",
-        secondaryColor: "#9b59b6",
-        bgColor: "#34495e",
+        //secondaryColor: "#9b59b6",
+        secondaryColor: "#FBB040",
+        //bgColor: "#34495e",
+        bgColor: "#0A0360",
       },
       boxShadow: {
         btnShadow: "0px 0px 18px 3px rgba(52,73,94,1)",

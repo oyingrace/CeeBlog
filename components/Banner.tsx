@@ -3,14 +3,14 @@ import Slider from "react-slick";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import bannerImgOne from "../public/images/bannerImgOne.jpg";
 import bannerImgTwo from "../public/images/bannerImgTwo.jpg";
-import bannerImgThree from "../public/images/bannerImgThree.jpg";
+import bannerImgThree from "../public/images/bannerImgThree.jpeg";
 import bannerImgFour from "../public/images/bannerImgFour.jpg";
 
 function SampleNextArrow(props: any) {
   const { onClick } = props;
   return (
     <div
-      className="w-44 h-8 absolute bottom-32 z-30 right-10 border-[1px] border-gray-900 px-2 hover:border-gray-800 bg-black/50 hover:bg-black shadow-btnShadow overflow-hidden"
+      className="w-44 h-8 absolute bottom-32 z-30 right-10 border-[1px] border-orange-900 px-2 hover:border-gray-800 bg-black/50 hover:bg-black shadow-btnShadow overflow-hidden"
       onClick={onClick}
     >
       <div className="w-full h-full text-gray-300 text-sm uppercase relative flex items-center justify-end cursor-pointer group  ">
@@ -32,7 +32,7 @@ function SamplePrevArrow(props: any) {
   const { onClick } = props;
   return (
     <div
-      className="w-44 h-8 absolute bottom-32 z-30 left-10 border-[1px] border-gray-900 px-2 hover:border-gray-800 bg-black/50 hover:bg-black shadow-btnShadow overflow-hidden"
+      className="w-44 h-8 absolute bottom-32 z-30 left-10 border-[1px] border-orange-900 px-2 hover:border-gray-800 bg-black/50 hover:bg-black shadow-btnShadow overflow-hidden"
       onClick={onClick}
     >
       <div className="w-full h-full text-gray-300 text-sm uppercase relative flex items-center justify-between cursor-pointer group  ">
@@ -40,10 +40,10 @@ function SamplePrevArrow(props: any) {
           <FaChevronLeft />
         </span>
         <span className="absolute translate-x-24 translate-y-0 group-hover:-translate-y-7 transition-transform duration-500">
-          previous
+          prev
         </span>
         <span className="absolute translate-x-24 translate-y-7 group-hover:translate-y-0 transition-transform duration-500">
-          previous
+          prev
         </span>
       </div>
     </div>

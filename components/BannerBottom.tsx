@@ -2,6 +2,7 @@ import React from "react";
 import { MdOutlineMonitor } from "react-icons/md";
 import { IoMdHeartEmpty } from "react-icons/io";
 import { GoComment } from "react-icons/go";
+import { FaSquareXTwitter } from "react-icons/fa6";
 
 const BannerBottom = () => {
   return (
@@ -11,15 +12,16 @@ const BannerBottom = () => {
           My Blog
         </p>
         <h3 className="font-bold text-xl md:text-3xl">
-          These 7 things will change the way you approach learning!
+        Hey readers, I'm Ceenuel, your guide thought this art of content writing
         </h3>
-        <p className="text-xs text-white/50">Camila Hoffman / 4 weeks ago</p>
+       {/* <p className="text-xs text-white/50">Camila Hoffman / 2 weeks ago</p> */}
       </div>
+      {/*
       <div className="w-full lg:w-[40%] flex items-center justify-center gap-2 lg:gap-8">
         <div className="w-full flex flex-col items-center group">
-          <MdOutlineMonitor className="text-4xl text-gray-300 group-hover:text-white duration-300" />
+          <FaSquareXTwitter className="text-4xl text-gray-300 group-hover:text-white duration-300" />
           <p className="text-xs md:text-sm font-titleFont text-white/50 group-hover:text-white">
-            watch on youtube
+            Engage on Twitter
           </p>
         </div>
         <div className="w-full flex flex-col items-center justify-center group">
@@ -35,6 +37,7 @@ const BannerBottom = () => {
           </p>
         </div>
       </div>
+  */}
     </div>
   );
 };
