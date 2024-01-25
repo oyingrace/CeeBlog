@@ -53,10 +53,12 @@ const Post = ({post}:Props) => {
                 <img 
         className='rounded-full w-12 h-12 object-cover bg-red-400'
         src={urlFor(post.author.image).url()!} alt="img" />
-        <p className='font-bodyFont text-base'>
+
+       {/* <p className='font-bodyFont text-base'>
             Blog post by <span className='font-bold text-secondaryColor'>{post.author.name} </span> - Published at {" "}
              {new Date(post.publishedAt).toLocaleDateString()}
         </p>
+        */}
                 </div>
                 <div className='mt-10'>
                   <PortableText dataset={process.env.NEXT_PUBLIC_SANITY_DATASET || "production"}
