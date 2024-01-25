@@ -15,10 +15,10 @@ function SampleNextArrow(props: any) {
     >
       <div className="w-full h-full text-gray-300 text-sm uppercase relative flex items-center justify-end cursor-pointer group  ">
         <span className="absolute -translate-x-28 translate-y-0 group-hover:-translate-y-7 transition-transform duration-500">
-          next
+        
         </span>
         <span className="absolute -translate-x-28 translate-y-7 group-hover:translate-y-0 transition-transform duration-500">
-          next
+          
         </span>
         <span className="text-lg">
           <FaChevronRight />
@@ -40,10 +40,10 @@ function SamplePrevArrow(props: any) {
           <FaChevronLeft />
         </span>
         <span className="absolute translate-x-24 translate-y-0 group-hover:-translate-y-7 transition-transform duration-500">
-          prev
+        
         </span>
         <span className="absolute translate-x-24 translate-y-7 group-hover:translate-y-0 transition-transform duration-500">
-          prev
+  
         </span>
       </div>
     </div>

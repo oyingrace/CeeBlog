@@ -55,7 +55,7 @@ const Post = ({post}:Props) => {
         src={urlFor(post.author.image).url()!} alt="img" />
 
         <p className='font-bodyFont text-base'>
-            Blog post by <span className='font-bold text-secondaryColor'>{post.author.name} </span> 
+            Blog post by <span className='font-bold text-secondaryColor'>{post.author.name} </span>  
         </p>
         
                 </div>
