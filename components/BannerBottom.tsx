@@ -12,7 +12,7 @@ const BannerBottom = () => {
           My Blog
         </p>
         <h3 className="font-bold text-xl md:text-3xl">
-        Hey readers, I'm Ceenuel, your guide thought this art of content writing
+        Hey readers, I'm Ceenuel, your guide through this art of content writing
         </h3>
        {/* <p className="text-xs text-white/50">Camila Hoffman / 2 weeks ago</p> */}
       </div>
